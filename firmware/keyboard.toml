@@ -23,7 +23,7 @@ keymap = [
         ["CapsLock", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote"],
         ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "WM(Enter,RShift)"],
         ["_", "LCtrl", "LGui", "LAlt", "Enter", "MO(2)", "PageUp", "PageDown", "WM(Minus,RAlt)", "WM(Equal,RCtrl)", "MO(1)", "_"],
-        ["_", "_", "_", "_", "Space", "LT(1, Grave)", "LT(2, Delete)", "Space", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "Space", "LT(1, Grave)", "LT(2, Delete)", "Space", "_", "_", "_", "_"]
     ],
 ]
 
@@ -47,7 +47,8 @@ keymap = [
 
 [ble]
 enabled = true
-
+# 电量报告
+battery_adc_pin = "vddh"
 
 [split]
 connection = "ble"
