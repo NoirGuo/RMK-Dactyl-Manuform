@@ -1,1 +1,2 @@
-images/keyboard.jpg
+<img src="images/keyboard.jpg" >
+
